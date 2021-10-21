@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.ecommerceapplication.fragments.SplashFragment"
+        android:label="splash_fragment"
+        tools:layout="@layout/fragment_spalsh">
+        <action
+            android:id="@+id/action_splashFragment_to_signUpFragmentOne"
+            app:destination="@id/signUpFragmentOne"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"
+            />
+        <action
+            android:id="@+id/action_splashFragment_to_signInEmail"
+            app:destination="@id/signInFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_welcomeBackFragment"
+            app:destination="@id/welcomeBackFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragmentOne"
+        android:name="com.example.ecommerceapplication.fragments.SignUpFragmentOne"
+        android:label="SignUpFragmentOne"
+        tools:layout="@layout/fragment_sign_up_one">
+        <action
+            android:id="@+id/action_signUpFragmentOne_to_signInFragment"
+            app:destination="@id/signInFragment"
+             />
+
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.ecommerceapplication.fragments.SignInFragment"
+        android:label="sign_in_fragment"
+        tools:layout="@layout/fragment_sign_in" >
+
+        <action
+            android:id="@+id/action_signInFragment_to_welcomeBackFragment"
+            app:destination="@id/welcomeBackFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragmentOne"
+            app:destination="@id/signUpFragmentOne"
+             />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/welcomeBackFragment"
+        android:name="com.example.ecommerceapplication.fragments.WelcomeBackFragment"
+        android:label="WelcomeBackFragment"
+        tools:layout="@layout/fragment_welcome_back">
+
+        <action
+            android:id="@+id/action_welcomeBackFragment_to_homeActivity"
+            app:destination="@id/homeActivity"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"
+
+            />
+    </fragment>
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.example.ecommerceapplication.activity.HomeActivity"
+        android:label="HomeActivity"
+        tools:layout="@layout/activity_home">
+        <argument
+            android:name="clearBackStack"
+            android:defaultValue="true"
+            app:argType="boolean" />
+    </activity>
+</navigation>

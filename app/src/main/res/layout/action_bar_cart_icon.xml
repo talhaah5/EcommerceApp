@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="title"
+            type="String" />
+
+        <variable
+            name="isProductDetails"
+            type="Boolean" />
+
+    </data>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/actionBarConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@{isProductDetails ? @color/spruce_valencia : @color/white}"
+        android:elevation="0dp"
+        app:elevation="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="@dimen/padding_normal"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:tint="@{isProductDetails ? @color/white : @color/spruce_dark_gray}" />
+
+
+            <TextView
+                android:id="@+id/textView76"
+                style="@style/text_normal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:maxLength="20"
+                android:text="@{title}"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_large_heading"
+                app:layout_constraintBottom_toBottomOf="@+id/imgBack"
+                app:layout_constraintEnd_toStartOf="@+id/constraintLayout3"
+                app:layout_constraintStart_toEndOf="@+id/imgBack"
+                app:layout_constraintTop_toTopOf="@+id/imgBack" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    android:id="@+id/imgCart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/padding_normal"
+                    android:src="@drawable/ic_bx_cart"
+                    android:tint="@{isProductDetails ? @color/white : @color/spruce_valencia}"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/cartItemsCountTv"
+                    style="@style/text_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/imgCart"
+                    android:layout_alignEnd="@id/imgCart"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/badge_circle"
+                    android:backgroundTint="@{isProductDetails ? @color/white : @color/spruce_valencia}"
+                    android:gravity="center"
+                    android:maxLength="2"
+                    android:padding="5dp"
+                    android:paddingStart="@dimen/padding_small"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="@dimen/padding_small"
+                    android:text="@string/text__0"
+                    android:textColor="@{isProductDetails ? @color/spruce_dark_gray : @color/white}"
+                    android:textSize="@dimen/text_extra_small"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+</layout>
+
+
+
+
+
+
+

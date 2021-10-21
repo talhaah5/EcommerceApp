@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/white</color>
+    <color name="colorAccent">@color/black</color>
+
+
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_opacity">#0DFFFFFF</color>
+
+    <color name="et_shape_color">#f7f8fc</color>
+
+    <color name="negative_bg">#FBEFEE</color>
+    <color name="negative_divider_bg">#ECACA5</color>
+
+
+    <color name="spruce_valencia">#11C856</color>
+    <color name="spruce_light_gray">#7C7B8A</color>
+    <color name="spruce_dark_gray">#31333B</color>
+    <color name="spruce_light_gray_25">#407C7B8A</color>
+    <color name="spruce_lilac_white">#F7F8FC</color>
+    <color name="spruce_catskill_white">#EAEFF5</color>
+    <color name="spruce_ronchi">#ECB94F</color>
+
+
+    <color name="error_color">#D44333</color>
+
+
+    <color name="fbutton_default_color">@color/spruce_valencia</color>
+    <color name="fbutton_default_shadow_color">#ff3493c8</color>
+    <color name="unpressed_color">#fff44336</color>
+    <color name="pressed_color">#ffd32f2f</color>
+    <color name="viewDisabledColor">#F7F8FC</color>
+
+
+</resources>

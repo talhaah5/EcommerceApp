@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EcommerceApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fake_store_application">Fake Store Application</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="text_sign_up_now_and_get_your_first_on_demand_delivery_today">Sign Up now and get your first on demand delivery</string>
+    <string name="hint_email_address">User Name</string>
+    <string name="hint_password">Password</string>
+    <string name="text_can_t_log_in">Can\'t LogIn</string>
+    <string name="error_empty">This Field Can\'t be empty</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="text_next_step">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_In">Sign In</string>
+    <string name="text_continue">Continue</string>
+    <string name="error_operation_could_not_be_completed">Operation could not be completed.</string>
+    <string name="text_retry">Retry</string>
+    <string name="text__0">0</string>
+    <string name="_1">1</string>
+    <string name="text_rate">Rate</string>
+    <string name="text_add_to_cart">Add to cart</string>
+    <string name="hint_search_for_an_order">Search for the product</string>
+    <string name="continue_as_guest">Continue As Guest</string>
+    <string name="total">Total</string>
+    <string name="welcome_now_you_can_explore_products_from_our_store">Welcome, Now You can explore products from our store.</string>
+</resources>

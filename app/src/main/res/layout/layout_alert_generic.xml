@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="title"
+            type="String" />
+
+        <variable
+            name="subTitle"
+            type="String" />
+
+        <variable
+            name="positiveBtnText"
+            type="String" />
+
+        <variable
+            name="negativeBtnText"
+            type="String" />
+
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_alert"
+        android:fillViewport="true">
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titleTv"
+                style="@style/text_heading"
+                android:textSize="@dimen/text_medium_heading"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_top"
+                android:gravity="center"
+                android:textColor="@color/spruce_valencia"
+                android:text="@{title}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/subTitleTv"
+                style="@style/text_normal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:layout_marginTop="@dimen/margin_top_normal"
+                android:layout_marginEnd="@dimen/margin_end"
+                android:gravity="center"
+                android:text="@{subTitle}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_no"
+                style="@style/button_style_text_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_normal"
+                android:text="@{negativeBtnText}"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btn_yes"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_yes"
+                style="@style/button_style_text_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_normal"
+                android:text="@{positiveBtnText}"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/btn_no"
+                app:layout_constraintTop_toBottomOf="@+id/subTitleTv" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</layout>

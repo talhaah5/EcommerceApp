@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.31203703703703706" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_horizontal_rule_24.xml" value="0.28512820512820514" />
+        <entry key="app/src/main/res/drawable-v24/ic_bx_trash.xml" value="0.2851851851851852" />
+        <entry key="app/src/main/res/drawable/badge_circle.xml" value="0.3101851851851852" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.3101851851851852" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/drawable/ic_baseline_remove_24.xml" value="0.3076923076923077" />
+        <entry key="app/src/main/res/drawable/ic_bx_cart.xml" value="0.3101851851851852" />
+        <entry key="app/src/main/res/drawable/round_edges.xml" value="0.3101851851851852" />
+        <entry key="app/src/main/res/drawable/shape_alert.xml" value="0.2969230769230769" />
+        <entry key="app/src/main/res/drawable/shape_bordered_rect.xml" value="0.3076923076923077" />
+        <entry key="app/src/main/res/drawable/shape_cursor.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/drawable/shape_et.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/drawable/shape_negative_et.xml" value="0.31203703703703706" />
+        <entry key="app/src/main/res/layout/action_bar_cart_icon.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/layout/activity_cart.xml" value="0.24818840579710144" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/layout/activity_product_details.xml" value="0.23424570337364736" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/layout/fragment_sign_up_one.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/layout/fragment_spalsh_fragment.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/layout/fragment_welcome_back.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/layout/ic_bx_cart.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/layout/item_cart_child.xml" value="0.24818840579710144" />
+        <entry key="app/src/main/res/layout/item_promo_products.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/layout/layout_alert_generic.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2635416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_xlarge_heading">36sp</dimen>
+    <dimen name="text_large_heading">30sp</dimen>
+    <dimen name="text_medium_heading">24sp</dimen>
+    <dimen name="text_small_heading">20sp</dimen>
+    <dimen name="text_normal">18sp</dimen>
+    <dimen name="text_medium_normal">16sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_extra_small">12sp</dimen>
+
+    <dimen name="margin_xsmall">4dp</dimen>
+    <dimen name="margin_xxsmall">2dp</dimen>
+
+    <dimen name="btn_corner_radius">2dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_corner_radius_small">4dp</dimen>
+    <dimen name="logo_width">26dp</dimen>
+    <dimen name="logo_height">26dp</dimen>
+    <dimen name="cart_item_width">48dp</dimen>
+    <dimen name="cart_item_height">48dp</dimen>
+
+    <dimen name="store_image_width">100dp</dimen>
+    <dimen name="store_image_height">100dp</dimen>
+
+    <dimen name="text_input_margin_start">20dp</dimen>
+    <dimen name="text_input_margin_end">20dp</dimen>
+
+    <dimen name="illustration_width">80dp</dimen>
+    <dimen name="illustration_height">80dp</dimen>
+
+    <dimen name="welcome_spruce_box_img_width">64dp</dimen>
+    <dimen name="welcome_spruce_box_img_height">64dp</dimen>
+    <dimen name="address_map_image_height">200dp</dimen>
+
+    <dimen name="drawer_image_width">80dp</dimen>
+    <dimen name="drawer_image_height">80dp</dimen>
+
+    <dimen name="bottom_sheet_radius">16dp</dimen>
+
+    <dimen name="img_width_small">48dp</dimen>
+    <dimen name="img_height_small">48dp</dimen>
+
+    <dimen name="img_width_xsmall">40dp</dimen>
+    <dimen name="img_height_xsmall">40dp</dimen>
+
+
+    <dimen name="img_width_xxsmall">24dp</dimen>
+
+    <dimen name="input_padding">8dp</dimen>
+    <dimen name="drawable_padding">16dp</dimen>
+
+
+    <dimen name="btn_radius">5dp</dimen>
+    <dimen name="padding">24dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_xsmall">4dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_normal_x">9dp</dimen>
+
+    <dimen name="fbutton_default_conner_radius">8dp</dimen>
+    <dimen name="fbutton_default_padding_left">10dp</dimen>
+    <dimen name="fbutton_default_padding_right">10dp</dimen>
+    <dimen name="fbutton_default_padding_top">5dp</dimen>
+    <dimen name="fbutton_default_padding_bottom">5dp</dimen>
+    <dimen name="fbutton_default_shadow_height">4dp</dimen>
+    <dimen name="fbutton_default_progress_margin">15dp</dimen>
+    <dimen name="fbutton_default_progress_width">10dp</dimen>
+
+
+    <dimen name="margin_start_normal">16dp</dimen>
+    <dimen name="margin_end_normal">16dp</dimen>
+    <dimen name="margin_bottom_normal">16dp</dimen>
+    <dimen name="margin_top_normal">16dp</dimen>
+
+    <dimen name="margin_top_small">8dp</dimen>
+    <dimen name="margin_bottom_small">8dp</dimen>
+    <dimen name="margin_start_small">8dp</dimen>
+    <dimen name="margin_end_small">8dp</dimen>
+
+    <dimen name="margin_start">24dp</dimen>
+    <dimen name="margin_end">24dp</dimen>
+    <dimen name="margin_bottom">24dp</dimen>
+    <dimen name="margin_top">24dp</dimen>
+    <dimen name="margin_nomral">22dp</dimen>
+
+
+    <dimen name="margin_bottom_x">32dp</dimen>
+    <dimen name="margin_bottom_xx">48dp</dimen>
+    <dimen name="margin_bottom_xxx">56dp</dimen>
+    <dimen name="margin_bottom_xxxx">66dp</dimen>
+
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <dimen name="product_img_width_height">85dp</dimen>
+
+
+</resources>
