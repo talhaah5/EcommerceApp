@@ -85,6 +85,6 @@ class CartActivity : AppCompatActivity() ,CartNavigator{
         for(product in products){
             total += product.quantity*product.price.toDouble()
         }
-        return total
+        return String.format("%.2f", total).toDouble()
     }
 }

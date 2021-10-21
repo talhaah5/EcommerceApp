@@ -73,7 +73,7 @@
                         android:maxLines="1"
                         android:textColor="@color/spruce_dark_gray"
                         android:textSize="24sp"
-                        android:text="@{product.price}"
+                        android:text="@{`$`+product.price}"
                         app:layout_constraintEnd_toStartOf="@+id/placeHolder"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/recyclerViewImage"

@@ -116,7 +116,7 @@
                 android:layout_marginTop="8dp"
                 android:gravity="center"
                 android:maxLines="1"
-                app:text="@{product.price}"
+                app:text="@{`$`+product.price}"
                 android:textColor="@color/spruce_dark_gray"
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"

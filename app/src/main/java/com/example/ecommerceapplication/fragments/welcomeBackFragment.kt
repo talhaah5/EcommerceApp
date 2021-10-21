@@ -1,17 +1,10 @@
 package com.example.ecommerceapplication.fragments
 
-import android.os.Build
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import android.view.WindowManager
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
-import com.android.volley.Response
-import com.android.volley.TimeoutError
-import com.android.volley.VolleyError
-import com.android.volley.toolbox.JsonObjectRequest
 import com.example.ecommerceapplication.R
 import com.example.ecommerceapplication.databinding.FragmentWelcomeBackBinding
 import com.example.ecommerceapplication.utils.viewBinding

@@ -86,7 +86,7 @@ class Product( ) : Parcelable {
         @JvmStatic
         @BindingAdapter("app:totalPrice")
         fun totalPrice(view: TextView, product: Product) {
-            view.text = (product.price.toDouble() * product.quantity.toDouble()).toString()
+            view.text = "$"+(product.price.toDouble() * product.quantity.toDouble()).toString()
         }
     }
 
